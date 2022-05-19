@@ -1,5 +1,5 @@
 <!DOCTYPE html>  <!-- Tipo de Archivo -> HTML5 -->
-<html lang="en"> <!-- Etiueta base del archivo -->
+<html lang="es"> <!-- Etiqueta base del archivo -->
 <head>  <!-- Cabeza del sitio donde encontramos los metadatos y estilos -->
   <meta charset="UTF-8">  <!-- Tipo de Escritura (incluye la ñ) -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">  <!-- compatibilidad con Internet Explorer -->
@@ -8,8 +8,178 @@
   <meta name="author" content="Tim Rvys" />
   <meta name="keywords" content="hola, mundo, apps, web, tic, utom" />
   <title>Hola Mundo</title>
+  <style>
+    h1 {
+      color: #dc7049;
+    }
+    span {
+      color: #49dccd;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 68px;
+    }
+    #segundo{
+      color: #dc7049;
+      font-size: 26px;
+    }
+  </style>
+  <link rel="stylesheet" href="">
 </head>
 <body>
   <h1>Hello world! to world of applications web!</h1>
+  <h2>Este es un subtitulo de segundo nivel</h2>
+  <h3>Subititulo de tercer nivel</h3>
+  <h4>Cuarto nivel de subtitulo.</h4>
+  <h5>Subtitle of level five.</h5>
+  <h6>Ultimo tamaño de titulo.</h6>
+  <p>Este es la etiqueta para parrafos del lenguaje HTML5.
+    Los alumnos de <span> 3A </span> de la <b> 6ta </b> generacion de la UTOM estan
+    aprendiendo las <i> bases de Apps Web </i>.
+    Lorem ipsum <strong>dolor</strong> sit amet consectetur adipisicing elit. Eos 
+    porro quo labore asperiores dolor repudiandae cumque! Atque, 
+    in vitae veritatis corporis libero aliquid ad placeat earum 
+    nulla debitis totam dicta?
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, 
+    sapiente! <span id="segundo">Ea illum assumenda molestiae </span> magnam. Impedit suscipit 
+    quaerat enim odit culpa hic non laudantium veritatis velit, 
+    doloremque esse itaque tenetur.
+  </p>
+  <pre>Juanito esta jugando con la PC.
+    ---- Pedro esta jugando a ser programador        
+              - Gio esta trabajando en una maquina del Lab-
+  </pre>
+  <p>
+  <a href="https://www.google.com"> Ir a Google </a>
+  </p>
+  <a href="https://www.wikipedia.com" target="_blank" rel="noopener noreferrer"> Ir a Wikipedia </a>
+
+  <ul type="circle">   <!-- square -->
+    <li>Gio</li>
+    <li>Bryan</li>
+    <li>JJ</li>
+    <li>Sebas</li>
+    <li>Tathan</li>
+  </ul>
+  <ol type="I">     <!-- a, A, i, I -->
+    <li>Gabriel</li>
+    <li>Toño</li>
+    <li>Lalo</li>
+    <li>Adrian</li>
+    <li>Tadeo</li>
+  </ol>
+
+  <img src="./images/graficas/imagen1.jpg" alt="Imagen 1 de mi sitio" width="300" height="300" />
+  <img src="./images/portables/icono.png" alt="Imagen 2 de mi sitio" width="200" height="200" />
+  <img src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/web-apps-t.jpg" alt="Imagen de sitio externo" width="350" height="350" />
+  
+  <img src="./favicon.png" width="200" height="200" alt="imagen junto al archivo"/>
+
+  <!-- TAREA etiquetas de video y de audio -->
+  <video src="./videos/video1.mp4" controls  width="200" height="200">
+  </video>
+  <audio src="./audios/musica2.mp3" controls ></audio>
+  <!-- <iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/rJuk_PHKQME" 
+  title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+  
+  <table border="1" 
+  style="width:80%; height:400px; padding: 15px; background-color:#b5b5f1; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">     <!-- Para hacer la tabla -->
+    <tr>            <!-- th Es para los titulos de las tablas -->
+      <th colspan="3">Table 1 de Basicos HTML</th>     <!-- td Columnas de la tabla -->
+    </tr>
+    <tr>
+      <td>No Control</td>
+      <td>Nombre</td>
+      <td>Telefono</td>
+    </tr>       <!-- tr Son para los renglones de la tabla -->
+    <tr>
+      <td>UTOM20015IDGS</td>
+      <td>Juanito Garcia Lopez</td>
+      <td>447 105 6743</td>
+    </tr>
+    <tr>
+      <td>UTOM20016IDGS</td>
+      <td>Bryan Colpes Gender</td>
+      <td>556 675 8909</td>
+    </tr>
+    <tr>
+      <td>UTOM20017IDGS</td>
+      <td>Pedrito Sola Garcia</td>
+      <td>722 690 8800</td>
+    </tr>
+  </table>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th colspan="5">Calificaciones</th>
+      </tr>
+      <tr>
+        <th>Nombre</th>
+        <th>Parcial 1</th>
+        <th>Parcial 2</th>
+        <th>Parcial 3</th>
+        <th>Final</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Antonio</td>
+        <td>9</td>
+        <td>8</td>
+        <td>7</td>
+        <td>7.8</td>
+      </tr>
+      <tr>
+        <td>Tathan</td>
+        <td>8</td>
+        <td>9</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Yessi</td>
+        <td>9</td>
+        <td>8</td>
+        <td>8</td>
+        <td>8.5</td>
+      </tr>
+    </tbody>
+  </table>
+  <table>
+    <caption>Resultados Globales</caption>
+    <tr>
+      <th colspan="4">Curso 2019/2010</th>
+    </tr>
+    <tr>
+      <th colspan="2">1º ESO - A</th>
+      <th colspan="2">1º ESO - A</th>
+    </tr>
+    <tr>
+      <td>Aprobados</td>
+      <td>Suspensos</td>
+      <td>Aprobados</td>
+      <td>Suspensos</td>
+    </tr>
+    <tr>
+      <td>68%</td>
+      <td>57%</td>
+      <td>32%</td>
+      <td>43%</td>
+    </tr>
+  </table>
+  <!-- WWW 	Que es?, donde surgió?, porque surgió?. 
+  Hosting	Tipos de hosting, ventajas y desventajas de cada uno, 
+  ejemplos de cada uno.-->
+
+  <a href="./about.html"> <img src="./images/graficas/next.jpg" alt="about us" 
+    width="100" height="100"/> </a>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
 </body>
 </html>
