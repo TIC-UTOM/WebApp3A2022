@@ -1,0 +1,70 @@
+/*
+  Estilos de mi Sitio
+  Author: Timo Ruiz Ruiz
+  Site: https://timo.com
+*/
+
+*, *:before, *:after{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(to right, #fa468e 0%, #fd9aaf 100%);
+  font-size: 12px;
+}
+
+body, button, input{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;  /*Para hacerlas negritas */
+  letter-spacing: 1.4px;     /* Para espacios entre las letras*/
+  color: #FFF;
+}
+
+body address ul li {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body address ul li a{
+  color: rgb(228, 245, 134);
+  text-decoration: none;
+}
+/*Selectores descendentes.*/
+body address ul li a:hover{
+  color: #8478c8;
+}
+
+.background {   /*Define la clase de CSS*/
+  display: flex;      /*Define la forma de ver los elementos*/
+  min-height: 100vh;  /*Minimo de alto es de 100 vh*/
+}
+
+.container {
+  flex: 0 1 700px;  /* Define el tamaño de las cajas felxibles */
+  margin: auto;    /*Margen (espacio al exterior) automatico*/
+  padding: 10px;   /*Espacio al interior de la caja container */
+}
+
+.screen {
+  position: relative;   /* Posicion de la caja screen dentro del Flex*/
+  background: #3e3e3e;    /*Fondo de caja screen */
+  border-radius: 15px;      /* Esquinas redondeadas */
+}
+
+/*  Entornos de desarrollo	-	Describir al menos 3
+ entornos de desarrollo para aplicaciones web. */
+
+h1 {
+  color: #635cf6;
+  font-size: 20px;
+  font-family: 'Great Vibes', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 18px;
+  color: #000000;
+}
+
+
