@@ -41,6 +41,7 @@ h1{
   background: #ffffff;
   padding: 25px;
   border-radius: 20px;
+  backdrop-filter: blur(10px);
 }
 
 #cabecera{
@@ -251,6 +252,127 @@ subrayado.
 	display:block;
 	float:right;
 	margin-left:12px;
+}
+
+/* RESPONSIVIDAD */
+/* DISEÑO PARA TABLETS */
+@media only screen and (max-width: 790px){
+  body {
+    margin: 15px;
+  }
+  #contenedor{
+    width: 90%;
+    padding: 2%;
+  }
+  #cabecera{
+    height: auto;
+  }
+  #logo{
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  #cabecera ul{
+    display: none;
+  }
+  #menu ul{
+    float: none;
+    margin: 0 auto;
+  }
+  #cajapresentacion{
+    width: 100%;
+    float: none;
+  }
+  #cajapresentacion h1{
+    font-size: 32px;
+  }
+  #banner{
+    width: 100%;
+    float: none;
+  }
+  #piepagina{
+    height: auto;
+  }
+  #piepagina .menupie{
+    float: none;
+    margin: 0 auto;
+  }
+  #piepagina .socialpie{
+    width: 180px;
+    height: 45px;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    padding-top: 10px;
+  }
+}
+
+/* RESPONSIVIDAD PARA MOVILES */
+@media only screen and (max-width:480px) {
+  body {
+    margin: 8px;
+  }
+  p{
+    font-size: 14px;
+  }
+  #contenedor{
+    width: 98%;
+    padding: 1%;
+  }
+  #logo{
+    width: 98%;
+  }
+  #menu{
+    height:auto;
+    border-bottom: none;
+  }
+  #menu ul{
+    width: 100%;
+    height: auto;
+    background: none;
+    float: none;
+    padding-top: 0;
+  }
+  #menu li{
+    float: none;
+  }
+  #menu li a{
+    line-height:30px;
+    display: block;
+    background: rgb(82, 226, 89);
+    padding: 0;
+    text-align: center;
+    border-right: none;
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  #banner img{
+    width: 100%;
+  }
+  .caja-proyectos{
+    width: 90%;
+  }
+  #piepagina .menupie{
+    width: 100%;
+    height: auto;
+    background: none;
+    float: none;
+    padding-top: 0;
+  }
+  #piepagina .menupie li{
+    float: none;
+  }
+  #piepagina .menupie li a{
+    line-height: 30px;
+    padding: 0;
+    background: #cfc;
+    border-right: none;
+    font-size: 12px;
+    margin-bottom: 4px;
+    text-align: center;
+  }
 }
 
 
